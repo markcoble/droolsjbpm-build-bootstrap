@@ -511,6 +511,24 @@
         <classifier>sources</classifier>
       </dependency>
 
+      <!-- KIE Simulation -->
+      <dependency>
+        <groupId>org.kie.simulation</groupId>
+        <artifactId>kie-simulation-model</artifactId>
+        <version>${version.org.kie}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kie.simulation</groupId>
+        <artifactId>kie-simulation-api</artifactId>
+        <version>${version.org.kie}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kie.simulation</groupId>
+        <artifactId>kie-simulation-test</artifactId>
+        <version>${version.org.kie}</version>
+      </dependency>
+
+
       <!-- KIE Workbench Playground Repository -->
       <dependency>
         <groupId>org.kie.workbench.playground</groupId>
